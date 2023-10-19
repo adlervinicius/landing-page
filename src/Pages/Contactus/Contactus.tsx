@@ -17,7 +17,7 @@ import image4 from '../../Assets/image4.png';
 import image5 from '../../Assets/image5.png';
 import image6 from '../../Assets/image6.png';
 import image7 from '../../Assets/image7.png';
-import image8 from '../../Assets/image8.png';
+import image8 from '../../Assets/image8.png'; 
 
 //main
 export const Contactus = () => {
