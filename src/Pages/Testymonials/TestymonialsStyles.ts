@@ -19,10 +19,18 @@ export const TextTestymonials = styled.text`
     font-weight: bold;
     text-align: center;
     margin-top: 5px;
+
+    @media (max-width: 850px) {
+        font-size: 45px;
+    }
+    
+    @media (max-width: 400px) {
+        font-size: 35px;
+    }
 `;
 
 export const AreaTestymonials = styled.div`
-    width: 510px;
+    width: 30%;
     height: 150px;
     background-color: #fff;
     display: grid;
@@ -30,6 +38,13 @@ export const AreaTestymonials = styled.div`
     border-radius: 30px;
     border: 1px solid #7C4032;
     margin: 10px;
+
+    @media (max-width: 850px) {
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        padding-bottom: 10px;
+    }
+
 `
 
 export const TextHeader = styled.text`
@@ -50,7 +65,6 @@ export const AreaContainer = styled.div`
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    // align-content: center;
 `;
 
 export const ContainerButtom = styled.div`

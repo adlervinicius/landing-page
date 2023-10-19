@@ -9,6 +9,10 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    
+    @media (max-width: 600px) {
+        display: grid;
+    }
 `;
 
 export const FooterArea = styled.div`
@@ -31,6 +35,10 @@ export const InputArea = styled.input`
     height: 50px;
     font-size: 16px;
     padding-left: 12px;
+
+    @media (max-width: 600px) {
+            width: 300px;
+    }
 `;
 
 export const AreaContact = styled.div`

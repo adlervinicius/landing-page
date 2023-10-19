@@ -27,6 +27,10 @@ export const TextFirst = styled.text`
     font-size: 54px;
     font-weight: bold;
     text-align: center;
+
+    @media (max-width: 768px) {
+        font-size: 45px;
+    }
 `;
 
 export const TextSecond = styled.text`
@@ -34,6 +38,10 @@ export const TextSecond = styled.text`
     text-align: left;
     margin-top: 20px;
     font-size: 20px;
+
+    @media (max-width: 768px) {
+        font-size: 15px;
+    }
 `;
 
 export const ButtonHelp = styled.button`
@@ -46,6 +54,10 @@ export const ButtonHelp = styled.button`
     background-color: #F3CE5E;
     font-weight: bold;
     font-size: 18px;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
 `;
 
 export const ButtonAbout = styled.button`
@@ -58,6 +70,10 @@ export const ButtonAbout = styled.button`
     color: #FFFF;
     font-weight: bold;
     font-size: 18px;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
 `;
 
 export const ImageBear = styled.img`
